@@ -16,6 +16,15 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/chriscookoc/test</url>
+    </repository>
+  </distributionManagement>
+
+
   <dependencyManagement>
     <dependencies>
       <dependency>
